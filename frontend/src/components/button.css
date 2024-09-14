@@ -1,5 +1,6 @@
 button.btn {
-    padding: 16px;
+    padding: 14px 16px;
+    cursor: pointer;
 
     margin-left: var(--btn-margin-x, 0);
     margin-right: var(--btn-margin-x, 0);
@@ -9,6 +10,7 @@ button.btn {
     background-color: var(--btn-bg);
     border: 1px solid var(--btn-border-color);
     color: var(--btn-color);
+    font: var(--typo-regular-16);
 
     &.btn-primary {
         --btn-bg: var(--ds-btn-primary-bg);

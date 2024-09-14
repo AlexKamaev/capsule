@@ -2,7 +2,9 @@
     --font-size-12: 12px;
     --font-size-14: 14px;
     --font-size-16: 16px;
+    --font-size-20: 20px;
     --font-size-22: 22px;
+    --font-size-28: 28px;
     --font-size-32: 32px;
     --font-size-52: 52px;
     --font-size-76: 76px;
@@ -29,9 +31,14 @@
     --typo-header-76: var(--font-weight-380) var(--font-size-76)/var(--line-height-112) var(--font-family-heading);
     --typo-header-52: var(--font-weight-380) var(--font-size-52)/var(--line-height-112) var(--font-family-heading);
     --typo-header-32: var(--font-weight-380) var(--font-size-32)/var(--line-height-126) var(--font-family-heading);
+    --typo-heading-20: var(--font-weight-300) var(--font-size-20)/var(--line-height-160) var(--font-family-heading);
+    --typo-heading-28: var(--font-weight-500) var(--font-size-28)/var(--line-height-160) var(--font-family-heading);
     --typo-header-100: var(--font-weight-380) var(--font-size-100)/var(--line-height-112) var(--font-family-heading);
+    
+    --typo-regular-14: var(--font-weight-400) var(--font-size-14)/var(--line-height-180) var(--font-family-default);
     --typo-regular-16: var(--font-weight-300) var(--font-size-16)/var(--line-height-160) var(--font-family-default);
     --typo-regular-22:  var(--font-weight-400) var(--font-size-22)/var(--line-height-160) var(--font-family-default);
+    
     
 }
 

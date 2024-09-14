@@ -4,10 +4,10 @@
     --ds-color-white: white;
     --ds-color-transparent: transparent; 
 
-    --ds-header-menu-color: var(--ds-color-white);
-    --ds-banner-heading-color: var(--ds-color-white);
+    /* --ds-header-menu-color: var(--ds-color-white);
+    --ds-banner-heading-color: var(--ds-color-white); */
 
-    --ds-before-heading-caption: var(--ds-color-dark-gray);
+    /* --ds-before-heading-caption: var(--ds-color-dark-gray); */
 
 
     --ds-btn-primary-color: var(--ds-color-black); 
@@ -26,4 +26,16 @@
     --ds-secondary-bg: var(--ds-color-transparent);
     --ds-secondary-border: var(--ds-color-black); */
 
+}
+
+.text-white {
+    color: var(--ds-color-white);
+}
+
+.text-black {
+    color: var(--ds-color-black);
+}
+
+.text-dark-gray {
+    color: var(--ds-color-dark-gray);
 }

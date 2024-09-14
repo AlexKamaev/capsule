@@ -1,11 +1,26 @@
 footer {
     justify-content: center;
+    font: var(--typo-regular-14);
 
     nav {
         display: flex;
 
         ul {
             --menu-flex-direction: column;
+
+            li {
+                
+                text-transform: uppercase;
+
+                &:first-child {
+                    margin-bottom: 20px;
+                }
+
+                a {
+                    text-transform: none;
+                    text-decoration: none;
+                }
+            }
         }
     }
 }
