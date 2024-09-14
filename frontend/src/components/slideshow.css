@@ -1,0 +1,11 @@
+div.slideshow {
+    --slideshow-margin-bottom: 60px;
+
+    .slideshow-item {
+        --btn-margin-x: 8px;
+        
+        p, h2 {
+            margin-bottom: var(--slideshow-margin-bottom);
+        }
+    }
+}

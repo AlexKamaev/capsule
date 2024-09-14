@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    width: 100%;
+    z-index: 9999;
+
+    justify-content: space-between;
+    height: var(--ds-header-size);
+
+    nav {
+        --menu-li-padding-x: 10px;
+        --menu-li-padding-y: 5px;
+        --menu-link-font: var(--typo-header-menu);
+        --menu-link-color: var(--ds-header-menu-color);
+
+        width: 50%;
+
+        ul li a {
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+
+        &:first-child ul {
+            justify-content: start;
+        }
+
+        &:last-child ul {
+            justify-content: end;
+        }
+    }
+/* 
+    img {
+        height: var(--ds-header-size);
+    } */
+}

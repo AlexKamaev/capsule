@@ -1,0 +1,164 @@
+.w-half {
+    width: 50%;
+}
+
+.w-one-third {
+    width: 33.33%;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.w-350 {
+    width: 350px;
+}
+
+.w-550 {
+    width: 550px;
+}
+
+.h-450 {
+    height: 450px;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.pl-150 {
+    padding-left: 150px;
+}
+
+.as-relative {
+    position: relative;
+}
+
+.as-absolute {
+    position: absolute;
+}
+
+.left-0 {
+    left: 0;
+}
+
+.left-half {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bottom-0 {
+    bottom: 0;
+}
+
+.top-0 {
+    top: 0;
+}
+
+.right-0 {
+    right: 0;
+}
+
+.as-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.as-flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-bottom {
+    align-items: flex-end;
+}
+
+.as-heading-52 {
+    font: var(--typo-header-52);
+}
+
+.as-heading-32 {
+    font: var(--typo-header-32);
+}
+
+.as-heading-76 {
+    font: var(--typo-header-76);
+    color: var(--ds-banner-heading-color);
+    margin: 0;
+}
+
+.as-heading-100 {
+    font: var(--typo-header-100);
+    color: var(--ds-banner-heading-color);
+    margin: 0;
+}
+
+.as-regular-22 {
+    font: var(--typo-regular-22);
+    color: var(--ds-banner-heading-color);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.caption-before-heading {
+    font: var(--typo-regular-16);
+    color: var(--ds-before-heading-caption);
+
+    text-transform: uppercase;
+}
+
+.caption-after-heading {
+    font: var(--typo-regular-16);
+    color: var(--ds-before-heading-caption);
+}
+
+
+.wtf {
+    width: 400px;
+    height: 400px;
+    display: flex;
+
+    align-items: center;
+
+    text-align: center;
+
+    background: linear-gradient(135deg, transparent 50%, #e7e7e7 50%) top left,
+        linear-gradient(-135deg, transparent 50%, #e7e7e7 50%) top right,
+        linear-gradient(45deg, transparent 50%, #e7e7e7 50%) bottom left,
+        linear-gradient(-45deg, transparent 50%, #e7e7e7 50%) bottom right;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+
+    &.wtf-lt {
+        transform: translate(-50%, -50%);
+    }
+
+    &.wtf-rt {
+        transform: translate(50%, -50%);
+    }
+
+    &.wtf-lb {
+        transform: translate(-50%, 50%);
+    }
+
+    &.wtf-rb {
+        transform: translate(50%, 50%);
+    }
+    
+}
+
+.z-max {
+    z-index: 9999;
+}

@@ -1,0 +1,21 @@
+nav {
+    ul {
+        --menu-li-padding-y: unset;
+        --menu-li-padding-x: unset;
+        --menu-link-font: unset;
+        --menu-link-color: unset;
+        --menu-flex-direction: row;
+
+        display: flex;
+        flex-direction: var(--menu-flex-direction);
+
+        li {
+            padding: var(--menu-li-padding-y) var(--menu-li-padding-x);
+
+            a {
+                font: var(--menu-link-font);
+                color: var(--menu-link-color);
+            }
+        }
+    }
+}
