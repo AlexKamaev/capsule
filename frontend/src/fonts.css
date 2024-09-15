@@ -1,0 +1,29 @@
+.heading {
+    &--32 {
+        font: var(--typo-header-32);
+    }
+
+    &--52 {
+        font: var(--typo-header-52);
+    }
+
+    &--76 {
+        font: var(--typo-header-76);
+    }
+
+    &--100 {
+        font: var(--typo-header-100);
+    }
+}
+
+.as-regular-14 {
+    font: var(--typo-regular-14);
+}
+
+.as-regular-16 {
+    font: var(--typo-regular-14);
+}
+
+.as-regular-22 {
+    font: var(--typo-regular-22);
+}

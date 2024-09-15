@@ -4,12 +4,6 @@
     --ds-color-white: white;
     --ds-color-transparent: transparent; 
 
-    /* --ds-header-menu-color: var(--ds-color-white);
-    --ds-banner-heading-color: var(--ds-color-white); */
-
-    /* --ds-before-heading-caption: var(--ds-color-dark-gray); */
-
-
     --ds-btn-primary-color: var(--ds-color-black); 
     --ds-btn-primary-bg: var(--ds-color-white);
     --ds-btn-primary-border-color: var(--ds-color-white);
@@ -17,15 +11,6 @@
     --ds-btn-secondary-color: var(--ds-color-white); 
     --ds-btn-secondary-bg: var(--ds-color-transparent);
     --ds-btn-secondary-border-color: var(--ds-color-white);
-
-    /* --ds-primary-color: var(--ds-color-black);
-    --ds-primary-bg: var(--ds-color-white);
-    --ds-primary-border: var(--ds-color-white);
-
-    --ds-secondary-color: var(--ds-color-black);
-    --ds-secondary-bg: var(--ds-color-transparent);
-    --ds-secondary-border: var(--ds-color-black); */
-
 }
 
 .text-white {

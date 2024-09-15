@@ -6,19 +6,18 @@ button.btn {
     margin-right: var(--btn-margin-x, 0);
     margin-top: var(--btn-margin-y, 0);
     margin-bottom: var(--btn-margin-y, 0);
-
     background-color: var(--btn-bg);
     border: 1px solid var(--btn-border-color);
     color: var(--btn-color);
     font: var(--typo-regular-16);
 
-    &.btn-primary {
+    &--primary {
         --btn-bg: var(--ds-btn-primary-bg);
         --btn-border-color: var(--ds-btn-primary-border-color);
         --btn-color: var(--ds-btn-primary-color);
     }
 
-    &.btn-secondary {
+    &--secondary {
         --btn-bg: var(--ds-btn-secondary-bg);
         --btn-border-color: var(--ds-btn-secondary-border-color);
         --btn-color: var(--ds-btn-secondary-color);

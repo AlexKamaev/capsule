@@ -23,22 +23,18 @@
     --font-weight-600: 600;
     --font-weight-700: 700;
    
-
     --font-family-default: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
     --font-family-heading: "TT Livret", Georgia;
 
-    --typo-header-menu: var(--font-weight-400) var(--font-size-14)/var(--line-height-180) var(--font-family-default);
-    --typo-header-76: var(--font-weight-380) var(--font-size-76)/var(--line-height-112) var(--font-family-heading);
-    --typo-header-52: var(--font-weight-380) var(--font-size-52)/var(--line-height-112) var(--font-family-heading);
-    --typo-header-32: var(--font-weight-380) var(--font-size-32)/var(--line-height-126) var(--font-family-heading);
     --typo-heading-20: var(--font-weight-300) var(--font-size-20)/var(--line-height-160) var(--font-family-heading);
     --typo-heading-28: var(--font-weight-500) var(--font-size-28)/var(--line-height-160) var(--font-family-heading);
+    --typo-header-32: var(--font-weight-380) var(--font-size-32)/var(--line-height-126) var(--font-family-heading);
+    --typo-header-52: var(--font-weight-380) var(--font-size-52)/var(--line-height-112) var(--font-family-heading);
+    --typo-header-76: var(--font-weight-380) var(--font-size-76)/var(--line-height-112) var(--font-family-heading);
     --typo-header-100: var(--font-weight-380) var(--font-size-100)/var(--line-height-112) var(--font-family-heading);
     
     --typo-regular-14: var(--font-weight-400) var(--font-size-14)/var(--line-height-180) var(--font-family-default);
     --typo-regular-16: var(--font-weight-300) var(--font-size-16)/var(--line-height-160) var(--font-family-default);
     --typo-regular-22:  var(--font-weight-400) var(--font-size-22)/var(--line-height-160) var(--font-family-default);
-    
-    
 }
 
