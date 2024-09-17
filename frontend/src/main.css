@@ -30,7 +30,7 @@ body {
 }
 
 .caption-before-heading {
-    color: var(--ds-color-dark-gray);
+    color: var(--ds-color-light-gray);
     text-transform: uppercase;
     margin-bottom: 56px;
 
@@ -41,7 +41,7 @@ body {
 
 .caption-after-heading {
     margin-top: 56px;
-    color: var(--ds-color-dark-gray);
+    color: var(--ds-color-light-gray);
 }
 
 .cloud-container {
@@ -75,7 +75,7 @@ body {
 
     background-size: 50% 50%;
     background-repeat: no-repeat;
-    font: var(--typo-heading-28);
+    font: var(--typo-header-28);
 
     > div {
         width: 100%;
@@ -83,7 +83,7 @@ body {
 
         > p {
             margin-top: 30px;
-            font: var(--typo-heading-20);
+            font: var(--typo-header-20);
             font-style: italic;    
         }
     }

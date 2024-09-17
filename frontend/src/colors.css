@@ -1,8 +1,14 @@
 :root {
-    --ds-color-black: black;
-    --ds-color-dark-gray: #858585;
+    --ds-color-black: #242424;
+    --ds-color-darker-gray: #545454;
+    --ds-color-light-gray: #858585;
+    --ds-color-gray: #696969;
+    --ds-color-one-more-gray: #9b9b9b;
     --ds-color-white: white;
-    --ds-color-transparent: transparent; 
+    --ds-color-transparent: transparent;
+
+    --ds-color-surface-gray: #F7F5F3;
+    --ds-color-surface-black: #242424;
 
     --ds-btn-primary-color: var(--ds-color-black); 
     --ds-btn-primary-bg: var(--ds-color-white);
@@ -11,6 +17,14 @@
     --ds-btn-secondary-color: var(--ds-color-white); 
     --ds-btn-secondary-bg: var(--ds-color-transparent);
     --ds-btn-secondary-border-color: var(--ds-color-white);
+
+    --ds-btn-black-color: var(--ds-color-white);
+    --ds-btn-black-bg: var(--ds-color-black);
+    --ds-btn-black-border-color: var(--ds-color-black);
+
+    --ds-btn-white-color: var(--ds-color-black);
+    --ds-btn-white-bg: var(--ds-color-white);
+    --ds-btn-white-border-color: var(--ds-color-one-more-gray);
 }
 
 .text-white {
@@ -22,5 +36,5 @@
 }
 
 .text-dark-gray {
-    color: var(--ds-color-dark-gray);
+    color: var(--ds-color-light-gray);
 }

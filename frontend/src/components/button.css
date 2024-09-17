@@ -22,4 +22,16 @@ button.btn {
         --btn-border-color: var(--ds-btn-secondary-border-color);
         --btn-color: var(--ds-btn-secondary-color);
     }
+
+    &--black {
+        --btn-bg: var(--ds-btn-black-bg);
+        --btn-border-color: var(--ds-btn-black-border-color);
+        --btn-color: var(--ds-btn-black-color);
+    }
+
+    &--white {
+        --btn-bg: var(--ds-btn-white-bg);
+        --btn-border-color: var(--ds-btn-white-border-color);
+        --btn-color: var(--ds-btn-white-color);
+    }
 }

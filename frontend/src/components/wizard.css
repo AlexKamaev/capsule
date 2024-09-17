@@ -1,0 +1,96 @@
+.wizard {
+    padding-top: 76px;
+
+    display: flex;
+
+    &__content-wrapper {
+        width: 50%;
+    }
+
+    &__header {
+        font: var(--typo-header-32);
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    &__content {
+        background-color: var(--ds-color-surface-gray);
+        padding: 106px 200px;
+    }
+
+    &__image {
+        width: 50%;
+        position: relative;
+
+        &-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            overflow: hidden;
+        }
+
+        img {
+            object-fit: contain;
+        }
+    }
+
+    &__form {
+        label {
+            color: var(--ds-color-gray);
+            font: var(--typo-regular-12);
+            margin-bottom: 7px;
+        }
+
+    }
+
+    &__figure-chooser {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 46px;
+
+        &-link {
+            color: var(--ds-color-darker-gray);
+            text-decoration: none;
+            font: var(--typo-regular-14);
+
+            &--selected {
+                color: var(--ds-color-black);
+                border-bottom: 3px solid var(--ds-color-surface-black);
+            }
+        }
+    }
+
+    &__input-group {
+        margin-bottom: 46px;
+    }
+
+    &__input-info {
+        margin-top: 16px;
+        font: var(--typo-regular-16);
+    }
+
+    &__btns {
+        display: flex;
+        justify-content: center;
+
+        > button:first-child {
+            margin-right: 8px;
+        }
+
+        > button:last-child {
+            margin-left: 8px;
+        }
+    }
+
+    input, select {
+        width: 100%;
+        padding: 0;
+        padding-bottom: 8px;
+        background-color: transparent;
+        border: none;
+        font: var(--typo-regular-14);
+        border-bottom: 1px solid var(--ds-color-light-gray);
+    }
+}
