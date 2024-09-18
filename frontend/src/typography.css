@@ -34,7 +34,7 @@
     --typo-header-100: var(--font-weight-380) var(--font-size-100)/var(--line-height-112) var(--font-family-heading);
     
     --typo-regular-12: var(--font-weight-300) var(--font-size-12)/var(--line-height-140) var(--font-family-default);
-    --typo-regular-14: var(--font-weight-400) var(--font-size-14)/var(--line-height-180) var(--font-family-default);
+    --typo-regular-14: var(--font-weight-300) var(--font-size-14)/var(--line-height-180) var(--font-family-default);
     --typo-regular-16: var(--font-weight-300) var(--font-size-16)/var(--line-height-160) var(--font-family-default);
     --typo-regular-22:  var(--font-weight-400) var(--font-size-22)/var(--line-height-160) var(--font-family-default);
 }
