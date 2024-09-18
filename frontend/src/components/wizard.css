@@ -2,10 +2,11 @@
     padding-top: 76px;
 
     display: flex;
+    flex-direction: column;
 
-    &__content-wrapper {
+    /* &__content-wrapper {
         width: 50%;
-    }
+    } */
 
     &__header {
         font: var(--typo-header-32);
@@ -15,7 +16,7 @@
 
     &__content {
         background-color: var(--ds-color-surface-gray);
-        padding: 106px 200px;
+        padding: 10px 20px;
 
         &-btns {
             display: flex;
@@ -28,24 +29,6 @@
             >button:last-child {
                 margin-left: 8px;
             }
-        }
-    }
-
-    &__image {
-        width: 50%;
-        position: relative;
-
-        &-overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            bottom: 0;
-            right: 0;
-            overflow: hidden;
-        }
-
-        img {
-            object-fit: contain;
         }
     }
 
@@ -105,7 +88,7 @@
         li.wizard__navigation-link {
             display: flex;
             align-items: center;
-            
+
 
             a {
                 font: var(--typo-regular-14);
@@ -149,5 +132,61 @@
                 }
             }
         }
+    }
+}
+
+@media (min-width: 640px) {
+    .wizard {
+        &__content {
+            padding: 20px 40px;
+        }
+    }
+}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 1024px) {
+    .wizard {
+        flex-direction: row;
+
+        &__content-wrapper {
+            width: 50%;
+        }
+
+        &__content {
+            padding: 50px 100px;
+        }
+
+        &__image {
+            width: 50%;
+            position: relative;
+    
+            &-overlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                overflow: hidden;
+            }
+    
+            img {
+                object-fit: contain;
+            }
+        }
+    }
+}
+
+@media (min-width: 1280px) {
+    .wizard {
+        &__content {
+            padding: 106px 200px;
+        }
+    }
+}
+
+@media (min-width: 1536px) {
+    &__content {
+        padding: 106px 200px;
     }
 }

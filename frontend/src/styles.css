@@ -9,5 +9,11 @@
 @import './components/button.css';
 @import './components/slideshow.css';
 @import './components/wizard.css';
+@import './components/figure-chooser.css';
 @import './components/footer.css';
 @import './main.css';
+
+.main-container {
+    width: 980px;
+    margin: 0 auto;
+}
