@@ -8,7 +8,8 @@
 @import './components/menu.css';
 @import './components/button.css';
 @import './components/slideshow.css';
-@import './components/wizard.css';
+@import './components/ocl.css';
+@import './components/tcl.css';
 @import './components/figure-chooser.css';
 @import './components/footer.css';
 @import './main.css';

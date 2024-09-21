@@ -1,0 +1,146 @@
+.ocl {
+    &__container {
+        margin: 0 auto;
+    }
+
+    &__hero {
+        text-align: center;
+        /* padding: 60px 0; */
+        margin: 0 auto;
+        max-width: 587px;
+
+        &-heading {
+            font: var(--typo-header-32);
+            margin-bottom: 40px;
+        }
+    }
+
+    &__content {
+        text-align: center;
+        padding: 32px 20px;
+
+        &-header {
+            margin: 0 auto;
+            font: var(--typo-header-52);
+            margin-bottom: 32px;
+            max-width: 587px;
+        }
+
+        &-text {
+            margin: 0 auto;
+            max-width: 587px;
+            margin-bottom: 32px;
+        }
+    }
+}
+
+.x3-in-row {
+    text-align: center;
+
+    &__item {
+        border-right: 1px solid #BDBDBD;
+
+        &:last-child {
+            border: none;
+        }
+
+        &-image {
+            display: block;
+            width: 100%;
+        }
+
+        &-title {
+            background-color: #D5D2CB;
+            font: var(--typo-header-28);
+        }
+    }
+
+    &--styles {
+        .x3-in-row__item {
+            padding: 16px;
+
+            border: none;
+
+            &-title {
+                background-color: unset;
+            }
+
+            &--selected {
+                border: 8px solid #E34E1F;
+                padding: 8px;
+                color: white;
+
+                .x3-in-row__item-title {
+                    background-color: #E34E1F;
+                }
+
+                .x3-in-row__item-text {
+                    background-color: #E34E1F;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media (min-width: 640px) {}
+
+@media (min-width: 768px) {
+    .ocl {
+        &__content {
+            /* padding-left: 144px;
+            padding-right: 144px;
+            padding-top: 64px;
+            padding-bottom: 64px; */
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .x3-in-row {
+        display: flex;
+    }
+
+    .ocl {
+        &__content {
+            /* padding-left: 280px;
+            padding-right: 280px; */
+            /* padding-top: 64px;
+            padding-bottom: 90px; */
+        }
+    }
+}
+
+@media (min-width: 1280px) {
+    .ocl {
+        &__container {
+            width: 980px;
+        }
+
+        &__content {
+            /* padding-left: 95px;
+            padding-right: 95px; */
+            /* padding-top: 47px;
+            padding-bottom: 47px; */
+        }
+
+    }
+
+
+
+
+    .x3-in-row {
+        display: flex;
+    }
+}
+
+
+@media (min-width: 1536px) {
+    .ocl {
+        &__content {
+            /* padding-left: 95px;
+            padding-right: 95px; */
+        }
+    }
+}
